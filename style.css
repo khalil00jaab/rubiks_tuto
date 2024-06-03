@@ -1,0 +1,82 @@
+
+body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    
+header {
+        background: #333;
+        color: #fff;
+        padding: 1rem 0;
+        text-align: center;
+    }
+    
+header h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+    
+nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+nav ul li {
+        display: inline;
+        margin: 0 1rem;
+    }
+    
+nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    /* Effet hover sur les liens de navigation */
+nav ul li a:hover {
+        color: #ff6347; /* Changer la couleur au survol */
+    }
+    
+main {
+        padding: 2rem;
+    }
+    
+div {
+        margin-bottom: 2rem;
+    }
+    
+div h2 {
+        color: #333;
+        border-bottom: 2px solid #333;
+        padding-bottom: 0.5rem;
+    }
+    
+footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    
+   
+img {
+        max-width: 100%;
+        display: block;
+        margin-left: 35%;
+        margin-right: auto;
+        width: 100px;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+    
+img:hover {
+        transform: scale(1.05); 
+    }
+ 
+  
